@@ -2,7 +2,7 @@ public class Program {
     private static void ShowProducts(Product[] all){
         for (Product product : all) {
             System.out.println(product);
-            System.out.println("----");
+            System.out.println("*****");
         }
     }
     public static void main(String[] args) {
