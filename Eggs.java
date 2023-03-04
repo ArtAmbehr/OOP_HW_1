@@ -7,7 +7,7 @@ public class Eggs extends Food {
 
     @Override
     public String toString() {
-        return String.format("Наименование: %s; Цена: %d; Количество: %d; Еденица измерения: %s; Срок годности: %s; Количество в уп.: %d;", super.getName(),
+        return String.format("Наименование: %s; Цена: %d; Количество: %d; Еденица измерения: %s; Срок годности: %s; Количество в уп.: %d", super.getName(),
         super.getCost(), super.getQuantity(), super.getMeasure(), super.getDate(), this.packages);
     }
     
